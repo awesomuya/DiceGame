@@ -1,0 +1,18 @@
+.container1-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-image{
+  width:100px;
+  height: 100px;
+}
